@@ -17,14 +17,18 @@ public class Programmingassignmentpart1 {
         System.out.println(" REGISTRATION AND LOGIN FEATURE");
         System.out.println("=================================");
 
+        // Start the registration section
         System.out.println("\n--- Registration ---");
 
+         // Ask the user to enter their username
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
 
+        // Ask the user to enter their password
         System.out.print("Enter password: ");
         String password = scanner.nextLine();
 
+        // Ask the user to enter their South African cell phone number
         System.out.print("Enter South African cell phone number: ");
         String cellPhone = scanner.nextLine();
 
@@ -54,6 +58,7 @@ public class Programmingassignmentpart1 {
         if (user.checkUserName() && user.checkPasswordComplexity()
                 && user.checkCellPhoneNumber()) {
 
+             // Start the login section
             System.out.println("\n--- Login ---");
 
             System.out.print("Enter username: ");
