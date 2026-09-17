@@ -53,6 +53,7 @@ public class Login {
             }
         }
 
+          // Return true only if all three requirements have been met
         return hasCapital && hasNumber && hasSpecial;
     }
 
