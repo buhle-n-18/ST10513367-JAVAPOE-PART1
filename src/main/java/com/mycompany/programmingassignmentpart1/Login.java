@@ -21,6 +21,7 @@ public class Login {
         this.cellPhone = cellPhone;
     }
 
+    // Checks if the username contains an underscore and is 5 characters or less
     public boolean checkUserName() {
         return username != null
                 && username.contains("_")
