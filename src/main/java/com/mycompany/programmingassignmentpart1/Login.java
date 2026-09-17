@@ -64,6 +64,8 @@ public class Login {
     }
 
     public String registerUser() {
+        
+        // Check if the username is valid
         if (!checkUserName()) {
             return "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters in length.";
         }
