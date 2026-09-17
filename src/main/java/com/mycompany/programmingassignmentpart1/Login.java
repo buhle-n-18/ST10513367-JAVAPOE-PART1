@@ -9,6 +9,8 @@ package com.mycompany.programmingassignmentpart1;
  * @author nyath
  */
 public class Login {
+    
+    //Declarations
     private String username;
     private String password;
     private String cellPhone;
