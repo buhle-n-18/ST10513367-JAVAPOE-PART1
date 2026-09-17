@@ -75,6 +75,7 @@ public class Login {
             return "Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special character.";
         }
 
+         // Check if the cellphone number is valid
         if (!checkCellPhoneNumber()) {
             return "Cell phone number is incorrectly formatted or does not contain international code.";
         }
